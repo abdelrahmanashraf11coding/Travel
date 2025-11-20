@@ -1,0 +1,30 @@
+main{
+       height: 80svh !important;
+       background-image: url(./Background-CrhoXMm2.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+}
+body{
+       overflow-x: hidden;
+}
+input:focus{
+       outline: none;
+}
+.card{
+       cursor: pointer;
+       transition: all 0.3s ease-in-out;
+       
+       
+}
+.card:hover{
+       transform: scale(1.1);
+}
+.hover{
+       transition: all 0.3s ease-in-out;
+}
+.hover:hover{
+       background-color: white !important;
+       color: black !important;
+       transform: scale(1.1);
+}
