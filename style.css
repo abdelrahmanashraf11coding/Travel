@@ -1,30 +1,56 @@
-main{
-       height: 80svh !important;
-       background-image: url(./image/Background-CrhoXMm2.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
+main {
+  height: 100svh !important;
+  background-image: url(./image/Background-CrhoXMm2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body{
-       overflow-x: hidden;
+.my-nav {
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
-input:focus{
-       outline: none;
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff !important;
+  margin-left: 20px;
 }
-.card{
-       cursor: pointer;
-       transition: all 0.3s ease-in-out;
-       
-       
+ul li {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.card:hover{
-       transform: scale(1.1);
+ul li a {
+  transition: all 0.3s ease-in-out;
+  padding: 5px 10px;
 }
-.hover{
-       transition: all 0.3s ease-in-out;
+ul li a:hover {
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #fff;
 }
-.hover:hover{
-       background-color: white !important;
-       color: black !important;
-       transform: scale(1.1);
+
+body {
+  overflow-x: hidden;
+}
+input:focus {
+  outline: none;
+}
+.card {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.hover {
+  transition: all 0.3s ease-in-out;
+}
+.hover:hover {
+  background-color: white !important;
+  color: black !important;
+  transform: scale(1.1);
 }
